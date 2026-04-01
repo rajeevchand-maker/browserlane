@@ -1,0 +1,16 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#07111F"/>
+  <rect x="44" y="40" width="1192" height="560" rx="32" fill="#0E1B2D" stroke="#17365C"/>
+  <text x="92" y="140" fill="#F3EEE4" font-size="52" font-family="Georgia, serif">Browserlane</text>
+  <text x="92" y="184" fill="#82D7FF" font-size="18" font-family="IBM Plex Mono, Menlo, monospace" letter-spacing="4">SECURE BROWSER WORKFLOW RUNNER</text>
+  <text x="92" y="268" fill="#D4E3F5" font-size="30" font-family="Georgia, serif">Authenticated Playwright execution, run artifacts, and replayable synthetic flows.</text>
+  <rect x="92" y="336" width="320" height="146" rx="24" fill="#132946"/>
+  <text x="126" y="388" fill="#82D7FF" font-size="16" font-family="IBM Plex Mono, Menlo, monospace">artifacts</text>
+  <text x="126" y="434" fill="#F3EEE4" font-size="24" font-family="Georgia, serif">Screenshots + trace.zip</text>
+  <rect x="446" y="336" width="320" height="146" rx="24" fill="#132946"/>
+  <text x="480" y="388" fill="#82D7FF" font-size="16" font-family="IBM Plex Mono, Menlo, monospace">examples</text>
+  <text x="480" y="434" fill="#F3EEE4" font-size="24" font-family="Georgia, serif">Synthetic dashboard and intake flows</text>
+  <rect x="800" y="336" width="344" height="146" rx="24" fill="#132946"/>
+  <text x="834" y="388" fill="#82D7FF" font-size="16" font-family="IBM Plex Mono, Menlo, monospace">adapt with AI</text>
+  <text x="834" y="434" fill="#F3EEE4" font-size="24" font-family="Georgia, serif">README built for Claude and Codex</text>
+</svg>

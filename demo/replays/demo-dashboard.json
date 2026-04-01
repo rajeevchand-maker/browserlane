@@ -1,0 +1,7 @@
+{
+  "description": "Replay the synthetic dashboard workflow with the default highlight on artifact velocity.",
+  "workflow": "demo-dashboard",
+  "params": {
+    "emphasis": "artifact velocity"
+  }
+}
