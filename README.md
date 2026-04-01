@@ -63,6 +63,7 @@ npm run dev
 Useful follow-up commands:
 
 ```bash
+npm run test
 npm run verify:demo
 npm run replay:fixture -- demo/replays/demo-intake.json
 npm run token
@@ -92,7 +93,7 @@ scripts/
   Developer utilities and replay entry points
 
 tests/
-  Lightweight verification for non-browser logic
+  Auth, execution, and artifact-recording unit coverage
 
 demo/
   Demo-safe assets, poster files, and future example artifacts
@@ -199,6 +200,7 @@ What is intentionally missing:
 ## Verification
 
 These are the checks used during pre-release verification:
+- `npm run test`
 - `npm run typecheck`
 - `npm run lint`
 - `npm run build`

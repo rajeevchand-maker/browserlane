@@ -1,11 +1,19 @@
 # Tests
 
-`browserlane` currently relies on script-driven smoke verification instead of a larger automated test suite.
+`browserlane` now pairs script-driven demo verification with targeted automated
+coverage around the service logic that most affects trust.
 
-The most important checks today are:
+Automated checks:
+- `npm run test`
 - `npm run check`
+
+Script-driven verification:
 - `npm run verify:demo`
 - `npm run replay:fixture -- demo/replays/demo-dashboard.json`
 - `npm run replay:fixture -- demo/replays/demo-intake.json`
 
-This directory is reserved for future unit and integration tests as the public API surface expands.
+Current unit coverage focuses on:
+- demo token signing and verification
+- registry listing for bundled workflows
+- workflow execution success and failure behavior
+- workflow-recorder artifact output for success and failure steps
